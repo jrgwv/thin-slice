@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GainesAI Thin Slice</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="eyebrow">GainesAI</p>
+      <h1>Build the slice, not the system.</h1>
+      <p class="subtitle">
+        Paste rough notes and get a summary, action items, and one recommended next step.
+      </p>
+    </header>
+
+    <section class="panel">
+      <label for="notes">Input</label>
+      <textarea id="notes" placeholder="Paste rough notes, meeting notes, or an early product idea here..."></textarea>
+      <button id="analyzeButton">Analyze</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section id="results" class="panel hidden">
+      <h2>Result</h2>
+
+      <div class="result-group">
+        <h3>Summary</h3>
+        <p id="summary"></p>
+      </div>
+
+      <div class="result-group">
+        <h3>Action Items</h3>
+        <ul id="actionItems"></ul>
+      </div>
+
+      <div class="result-group">
+        <h3>Next Step</h3>
+        <p id="nextStep"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
