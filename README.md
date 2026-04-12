@@ -87,4 +87,4 @@ Live mode requires AWS credentials with Bedrock access. The default model is the
 ## Docs
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) — Mermaid component + sequence diagrams
-- [BLOG.md](BLOG.md) — Full code walkthrough: BFF pattern, Observer pattern, Converse API, JSON extraction
+- [WALKTHROUGH.md](WALKTHROUGH.md) — Full code walkthrough: BFF pattern, Observer pattern, Converse API, JSON extraction

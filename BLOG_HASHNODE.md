@@ -21,7 +21,7 @@ Each layer has one job. The frontend never talks to the model. The BFF never bui
 
 ## Project Structure
 
-```
+```text
 app/
   main.py                    # FastAPI entrypoint
   routes/
